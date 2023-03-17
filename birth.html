@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="en-us" http-equiv="Content-Language">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>生日快乐</title>
+<link href="light.css" rel="stylesheet" type="text/css" />
+<link href="text.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.auto-style1 {
+	color: #000000;
+}
+img {
+	float:left;
+}
+
+</style>
+
+</head>
+
+<body>
+<div id="box">
+		<div id="history" style="width:1205px">
+		想对你说的话	
+		</div>
+		<br/>
+		Badminton is first originated in Siam over 2000 year ago. Other than that, there were a similar game that called “Poona” which play in India  in 18th century. 
+		Badminton was brought to England in 1870 by British Army Officers that sheltered in India. After badminton was 
+		<br/><br/>
+		</div>
+
+	    <div class="row">
+  <div class="column">
+    <img src="com1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="com2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="com3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="com4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+   <div class="column">
+    <img src="com5.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+  </div>
+
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 5</div>
+      <img src="com1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 5</div>
+      <img src="com2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 5</div>
+      <img src="com3.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 5</div>
+      <img src="com4.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">5 / 5</div>
+      <img src="com5.jpg" style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="com1.jpg" style="width:100%" onclick="currentSlide(1)" alt="2023 Badminton Tournament Muar Team Championship">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="com2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Aco Best National Open Badminton Championship 2023">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="com3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Kejohanan Badminton">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="com4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Duo Sparks Badminton Tournament 2023">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="com5.jpg" style="width:100%" onclick="currentSlide(5)" alt="11th Safra Badminton Tournament 2023">
+    </div>
+
+  </div>
+</div>
+<script src="light.js" type="text/javascript"></script>
+        </div>
+</body>
+
+</html>
